@@ -32,7 +32,7 @@ exports.handler = (event, context, callback) =>
             /* required */
             ToAddresses: [
                 'maxwunj@gmail.com',
-                /* more items */
+                'maxwunj@msn.com',
             ]
         },
         Message: {
@@ -46,11 +46,11 @@ exports.handler = (event, context, callback) =>
             },
             Subject: {
                 /* required */
-                Data: `New post added -- ${key}` , /* required */
+                Data: `New post added -- ${key}`, /* required */
                 Charset: 'UTF-8'
             }
         },
-        Source: 'Contact to Max Wu', /* required */
+        Source: 'maxwunj@msn.com', /* required */
         ReplyToAddresses: [
             'maxwunj@msn.com',
             /* more items */
@@ -64,7 +64,6 @@ exports.handler = (event, context, callback) =>
                 console.log(data);           // successful response
         }
     );
-
     callback(null, data.ContentType);
 }  /* if-else */
 });
