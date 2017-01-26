@@ -20,4 +20,6 @@ Git related configuration and alias templates.
 
 Folder "vim_config" with Vundle
 
+## Bamboo XUnit Reader
 
+The script used to fetch bamboo test results in XUnit common format and a reader to walk thru them 

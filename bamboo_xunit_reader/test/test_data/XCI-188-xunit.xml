@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="2" tests="17" errors="0" name="Trafficgen" skip="0">
+<testcase classname="Trafficgen.Dhcp" name="stc_dhcp_v4" time="38">
+</testcase>
+<testcase classname="Trafficgen.Dhcp" name="wait_untial_all_dhcp_session_negotiated" time="184">
+<failure message="IXIASessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Trafficgen.Dhcp" name="ixia_dhcp_v4_with_single_tag" time="117">
+<failure message="IXIASessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Trafficgen.Dhcp" name="stc_wait_untial_all_dhcp_session_negotiated" time="38">
+</testcase>
+<testcase classname="Trafficgen.Ixia Host" name="create_dynamic_host" time="84">
+</testcase>
+<testcase classname="Trafficgen.Ixia Pppoev6" name="ixia_control_pppox" time="98">
+</testcase>
+<testcase classname="Trafficgen.Ixia Robot" name="verify_traffic_loss_within" time="84">
+</testcase>
+<testcase classname="Trafficgen.Ixia Robot" name="verify_traffic_no_loss" time="94">
+</testcase>
+<testcase classname="Trafficgen.Ixia Robot" name="L3_traffic_single_tagged" time="50">
+</testcase>
+<testcase classname="Trafficgen.Ixia Robot" name="dhcp_bound_stream" time="161">
+</testcase>
+<testcase classname="Trafficgen.Stc Pppoe" name="stc_control_pppox" time="26">
+</testcase>
+<testcase classname="Trafficgen.Stc Pppoev6" name="stc_control_pppox" time="27">
+</testcase>
+<testcase classname="Trafficgen.Stc Robot" name="single_tag_traffic" time="53">
+</testcase>
+<testcase classname="Trafficgen.Stc Robot" name="verify_traffic_loss_within" time="80">
+</testcase>
+<testcase classname="Trafficgen.Stc Robot" name="verify_traffic_no_loss" time="81">
+</testcase>
+<testcase classname="Trafficgen.Stc Robot" name="get_traffic_stats_by_key_on_stream" time="81">
+</testcase>
+<testcase classname="Trafficgen.Stc Robot" name="L3_traffic_single_tagged" time="65">
+</testcase>
+</testsuite>

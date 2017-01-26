@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="18" tests="283" errors="0" name="Rf Regression" skip="0">
+<testcase classname="Rf Regression.Caseutil.Setup Teardown Not Pair.01 Do Not Have Teardown" name="case" time="0">
+</testcase>
+<testcase classname="Rf Regression.Caseutil.Setup Teardown Not Pair.02 Have Setup" name="case use device ok" time="0">
+</testcase>
+<testcase classname="Rf Regression.Cli.Cli" name="cli command demo" time="0">
+</testcase>
+<testcase classname="Rf Regression.Cli.Cli" name="auto send enter before login" time="0">
+</testcase>
+<testcase classname="Rf Regression.Cli.Cli" name="telnet without login username and password" time="16">
+</testcase>
+<testcase classname="Rf Regression.Cli.Cli" name="telnet auto connect when disconnected" time="1">
+</testcase>
+<testcase classname="Rf Regression.Cli.Cli" name="ssh auto connect when disconnected" time="1">
+</testcase>
+<testcase classname="Rf Regression.Cli.Cli" name="exit without retry" time="0">
+</testcase>
+<testcase classname="Rf Regression.Cli.Cli" name="ssh execute command timeout raise exception" time="5">
+</testcase>
+<testcase classname="Rf Regression.Cli.Cli" name="ssh execute command timeout ignore exception" time="5">
+</testcase>
+<testcase classname="Rf Regression.Cli.Cli" name="telnet execute command timeout raise exception" time="6">
+</testcase>
+<testcase classname="Rf Regression.Cli.Cli" name="telnet execute command timeout ignore exception" time="6">
+</testcase>
+<testcase classname="Rf Regression.Cli.Cli" name="dynamic_api_named_arguments" time="1">
+</testcase>
+<testcase classname="Rf Regression.Cli.Cli" name="send ctrl c" time="1">
+</testcase>
+<testcase classname="Rf Regression.Cli.Cli" name="unicode in result" time="1">
+</testcase>
+<testcase classname="Rf Regression.Cli.Multi Case Run.Inner Test.Suite 2" name="Basic_Provision" time="0">
+</testcase>
+<testcase classname="Rf Regression.Cli.Multi Case Run.Suite 0" name="Basic_Provision" time="0">
+</testcase>
+<testcase classname="Rf Regression.Cli.Multi Case Run.Suite 1" name="Basic_Provision" time="0">
+</testcase>
+<testcase classname="Rf Regression.Ftp.Ftp Demo" name="ftp pwd" time="0">
+</testcase>
+<testcase classname="Rf Regression.Ftp.Ftp Demo" name="ftp dir operation" time="1">
+</testcase>
+<testcase classname="Rf Regression.Ftp.Ftp Demo" name="ftp file operation" time="1">
+</testcase>
+<testcase classname="Rf Regression.Listener.Listener" name="Enable session reset 0" time="0">
+</testcase>
+<testcase classname="Rf Regression.Listener.Listener" name="Enable session reset 1" time="0">
+</testcase>
+<testcase classname="Rf Regression.Listener.Listener" name="Disable session reset 0" time="0">
+</testcase>
+<testcase classname="Rf Regression.Listener.Listener" name="Disable session reset 1" time="0">
+</testcase>
+<testcase classname="Rf Regression.Listener.Listener" name="Disable session reset 2" time="0">
+</testcase>
+<testcase classname="Rf Regression.Mail Gen.Mail Notify" name="mail gen single xml" time="5">
+</testcase>
+<testcase classname="Rf Regression.Mail Gen.Mail Notify" name="mail gen double xml" time="6">
+</testcase>
+<testcase classname="Rf Regression.Response Map.Response Map" name="test parse_key_value_pairs kw" time="0">
+</testcase>
+<testcase classname="Rf Regression.Restful.CCPlus" name="ccplus test" time="36">
+</testcase>
+<testcase classname="Rf Regression.Restful.Restful" name="bamboo test" time="34">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.Case setup demo" name="my case" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.For loop demo" name="Simple loop" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.For loop demo" name="Loop in range" time="1">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.For loop demo" name="nested loop" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.For loop demo" name="several loop variables" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.For loop demo" name="Loop in enumerate" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.For loop demo" name="Loop in zip" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.For loop demo" name="Exit loop" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.For loop demo" name="Continue loop" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.For loop demo" name="Repeat single keyword" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.Keyword arguments demo" name="varargs" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.Keyword arguments demo" name="kwargs" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.Keyword teardown demo" name="case1" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.Suite setup demo" name="my case" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.Template Demo" name="calculate" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.Variables Demo" name="list demo" time="1">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.Variables Demo" name="dict demo" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.Variables Demo" name="string and integervariables" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.Variables Demo" name="environment variables" time="0">
+</testcase>
+<testcase classname="Rf Regression.Robot Builtin.Variables Demo" name="random list" time="0">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp" name="ixia_dhcp_v4" time="160">
+<failure message="IXIASessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp" name="stc_dhcp_v4" time="39">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp" name="ixia_dhcp_v6" time="136">
+<failure message="IXIASessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp" name="stc_dhcp_v6" time="38">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp" name="wait_untial_all_dhcp_session_negotiated" time="111">
+<failure message="IXIASessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp" name="wait_until_all_dhcp_session_negotiated_ipv6" time="130">
+<failure message="IXIASessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp" name="ixia_dhcp_v4_with_single_tag" time="118">
+<failure message="IXIASessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp" name="ixia_dhcp_v4_with_double_tag" time="102">
+<failure message="IXIASessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp" name="ixia_dhcp_v6_with_single_tag" time="95">
+<failure message="IXIASessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp" name="ixia_dhcp_v6_with_double_tag" time="120">
+<failure message="IXIASessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp" name="ixia_dhcp_with_v4_and_v6" time="80">
+<failure message="IXIASessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp" name="stc_wait_untial_all_dhcp_session_negotiated" time="50">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp Single Tag" name="stc_dhcp_v4" time="39">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Dhcp With Option" name="stc_dhcp_with_option" time="48">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Igmp Keyword" name="stc_igmp_keyword_usage" time="86">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Igmp Keyword" name="ixia_igmp_keyword_usage" time="129">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Igmp Keyword" name="ixia_igmp_bound_stream" time="137">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Arp" name="Ixia_arp_usage" time="90">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Arp" name="test raw customized arp with vlan" time="47">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="create_cfm_bridge" time="78">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="modify_cfm_bridge" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="delete_cfm_bridge" time="25">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="enable_cfm_bridge" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="disable_cfm_bridge" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="start_cfm_bridge" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="stop_cfm_bridge" time="29">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="create_cfm_vlan" time="25">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="modify_cfm_vlan" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="delete_cfm_vlan" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="enable_cfm_vlan" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="disable_cfm_vlan" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="create_cfm_md_meg" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="modify_cfm_md_meg" time="25">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="delete_cfm_md_meg" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="enable_cfm_md_meg" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="disable_cfm_md_meg" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="create_cfm_mip_mep" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="modify_cfm_mip_mep" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="delete_cfm_mip_mep" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="enable_cfm_mip_mep" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="disable_cfm_mip_mep" time="26">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Cfm" name="create_real_cfm_element" time="23">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Clear Traffic" name="ixia_clear_traffic" time="79">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="create_static_host" time="53">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="create_dynamic_host" time="59">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="modify_host" time="30">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="get_dynamic_dhcp_info" time="113">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="host_send_ping" time="74">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="host_send_arp" time="69">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="create_static_hostv6" time="58">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="create_dynamic_hostv6" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="host_send_ns" time="104">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="host_send_rs" time="110">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="get_discovered_neighbor_ips" time="78">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="get_discovered_neighbor_ip_dynamic" time="78">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="get_discovered_neighbor_ipv6" time="93">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="get_discovered_neighbor_ipv6_dynamic" time="44">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="get_dynamic_dhcpv6_info" time="94">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Host" name="static_host_bound_stream" time="136">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Load Config" name="ixia_load_config" time="185">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Packet Capture" name="store captured big packets" time="133">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoe" name="ixia_tg_create_pppoe_server" time="44">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoe" name="ixia_tg_modify_pppoe_server" time="23">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoe" name="ixia_delete_pppoe_server" time="52">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoe" name="ixia_retg_create_pppoe_server" time="26">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoe" name="ixia_tg_create_pppoe_client" time="26">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoe" name="ixia_tg_modify_pppoe_client" time="28">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoe" name="ixia_delete_pppoe_client" time="25">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoe" name="ixia_get_pppox_stats" time="255">
+<failure message="TclSessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoe" name="ixia_control_pppox" time="240">
+<failure message="TclSessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoe" name="ixia_wait_for_all_session_negosiated" time="240">
+<failure message="TclSessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoev6" name="ixia_tg_create_pppoe_v6_server" time="42">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoev6" name="ixia_tg_modify_pppoe_v6_server" time="26">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoev6" name="ixia_delete_pppoe_v6_server" time="51">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoev6" name="ixia_retg_create_pppoe_v6_server" time="27">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoev6" name="ixia_tg_create_pppoe_v6_client" time="24">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoev6" name="ixia_tg_modify_pppoe_v6_client" time="32">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoev6" name="ixia_delete_pppoe_v6_client" time="26">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoev6" name="ixia_get_pppox_stats" time="257">
+<failure message="TclSessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Pppoev6" name="ixia_control_pppox" time="240">
+<failure message="TclSessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="disable_all_traffic" time="52">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="disable_traffic" time="28">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="double_tag_traffic" time="75">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="enable_all_traffic" time="29">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="enable_traffic" time="39">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="single_tag_traffic" time="57">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="untag_traffic" time="118">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="verify_stats_eq" time="58">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="verify_stats_greater_than" time="62">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="verify_stats_less_than" time="73">
+<failure message="IXIASessionException" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="verify_traffic_loss_within" time="74">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="verify_traffic_no_loss" time="62">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="verify_traffic_no_loss_on_port" time="69">
+<failure message="Error, there has a package loss on the port(p1)" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="verify_traffic_no_loss_on_port_within" time="60">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="verify_traffic_no_loss_on_stream" time="62">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="verify_traffic_no_loss_on_stream_within" time="83">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="L3_traffic_untagged" time="101">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="L4_traffic_untagged" time="47">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="L3_traffic_single_tagged" time="46">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="L4_traffic_single_tagged" time="79">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="L3_traffic_double_tagged" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="L4_traffic_double_tagged" time="50">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="untagged_boundle_traffic" time="47">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="dhcp_bound_stream" time="115">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="delete_traffic" time="11">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="start_all_traffic" time="86">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="stop_all_traffic" time="81">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="get_traffic_status_by_key" time="57">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Ixia Robot" name="delete_all_traffic" time="55">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Clear Traffic" name="stc_clear_traffic" time="63">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Load Config" name="stc_load_config" time="100">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoe" name="stc_tg_create_pppoe_server" time="27">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoe" name="stc_tg_modify_pppoe_server" time="46">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoe" name="stc_delete_pppoe_server" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoe" name="stc_retg_create_pppoe_server" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoe" name="stc_tg_create_pppoe_client" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoe" name="stc_tg_modify_pppoe_client" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoe" name="stc_delete_pppoe_client" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoe" name="stc_get_pppox_stats" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoe" name="stc_control_pppox" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoe" name="stc_wait_for_all_pppox_session_negociated" time="58">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoev6" name="stc_tg_create_pppoe_server" time="26">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoev6" name="stc_tg_modify_pppoe_server" time="46">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoev6" name="stc_delete_pppoe_server" time="46">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoev6" name="stc_retg_create_pppoe_server" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoev6" name="stc_tg_create_pppoe_client" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoev6" name="stc_tg_modify_pppoe_client" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoev6" name="stc_delete_pppoe_client" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoev6" name="stc_get_pppox_stats" time="45">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Pppoev6" name="stc_control_pppox" time="46">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="disable_all_traffic" time="33">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="disable_traffic" time="51">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="double_tag_traffic" time="82">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="enable_all_traffic" time="49">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="enable_traffic" time="59">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="single_tag_traffic" time="81">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="untag_traffic" time="82">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="verify_stats_eq" time="81">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="verify_stats_greater_than" time="81">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="verify_stats_less_than" time="82">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="verify_traffic_loss_within" time="81">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="verify_traffic_no_loss" time="82">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="get_traffic_stats_by_key_on_stream" time="81">
+<failure message="NotImplementedError" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="verify_traffic_no_loss_on_port" time="81">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="verify_traffic_no_loss_on_port_within" time="81">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="verify_traffic_no_loss_on_stream" time="81">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="verify_traffic_no_loss_on_stream_within" time="81">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="L3_traffic_untagged" time="64">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="L4_traffic_untagged" time="65">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="L3_traffic_single_tagged" time="64">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="L4_traffic_single_tagged" time="65">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="L3_traffic_double_tagged" time="65">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="L4_traffic_double_tagged" time="65">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="delete_traffic" time="49">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="device_send_ping" time="46">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="device_send_arp" time="49">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="start_all_traffic" time="62">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="stop_all_traffic" time="72">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="delete_all_traffic" time="72">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="get_traffic_stats_by_key_on_port" time="82">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="test_traffic_no_loss_with_no_rx_packets" time="69">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="single_tag_bust_traffic" time="66">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="Arp_Nd_on_all_devices" time="8">
+</testcase>
+<testcase classname="Rf Regression.Trafficgen.Stc Robot" name="start_stop_all_devices" time="48">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc go to page" time="6">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc checkbox_should_be_selected" time="7">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc checkbox_should_not_be_selected" time="10">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc click_element" time="6">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc click_visible_element" time="6">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc drag_and_drop" time="10">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc element_should_be_disabled" time="4">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc element_should_be_enabled" time="7">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc element_should_be_visible" time="7">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc element_should_not_be_visible" time="6">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc element_should_contain" time="6">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc element_should_not_contain" time="6">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc element_text_should_be" time="6">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_element_attribute" time="6">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_element_text" time="6">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_page_title" time="5">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_element_value" time="1">
+<failure message="Setup failed:&#10;AttributeError: 'NoneType' object has no attribute 'get_screenshot_as_file'" type="AssertionError"></failure>
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_current_url" time="5">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc page_should_contain_element" time="6">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc page_should_not_contain_element" time="68">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc page_should_contain_text" time="6">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc page_should_not_contain_text" time="68">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc wait_until_element_contains" time="5">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc wait_until_element_does_not_contain" time="4">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc wait_until_element_is_enabled" time="5">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc wait_until_element_is_visible" time="4">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc wait_until_element_is_not_visible" time="4">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc wait_until_page_contains_element" time="4">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc wait_until_page_does_not_contain_element" time="4">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_list_items" time="12">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_selected_list_value" time="3">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_selected_list_values" time="5">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_table_cell" time="22">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc input_text" time="3">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc submit_form" time="18">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc select_from_list" time="4">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc select_from_list_by_index" time="4">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc select_from_list_by_value" time="4">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc select_from_list_by_label" time="4">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc select_radio_button" time="3">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc select_checkbox" time="3">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc unselect_checkbox" time="4">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_selected_list_label" time="3">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_selected_list_labels" time="5">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_table_cell_contains_content" time="18">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_table_cells_contains_content" time="192">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_element_attribute_from_table_cell" time="14">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc reload page" time="8">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc get_table_rows_and_columns_count" time="16">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui" name="tc execute javascript" time="9">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui Demoqa" name="test drag and drop" time="11">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui Demoqa" name="element_visable" time="7">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui Demoqa" name="form" time="25">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui Jenkins" name="login fail" time="34">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui Jenkins" name="login successful" time="31">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui Jenkins" name="check checkbox" time="44">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui Jenkins" name="table cell" time="76">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui Jenkins" name="current url" time="12">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui Rfdoc" name="front page available" time="7">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui Rfdoc" name="not available page" time="7">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui Rfdoc" name="sort by version" time="9">
+</testcase>
+<testcase classname="Rf Regression.Webgui.Webgui Rfdoc" name="current url" time="6">
+</testcase>
+<testcase classname="Rf Regression.Wireshark.Wireshark" name="tshark_test" time="1">
+</testcase>
+<testcase classname="Rf Regression.Wireshark.Wireshark" name="dhcp_option82" time="1">
+</testcase>
+<testcase classname="Rf Regression.Wireshark.Wireshark" name="get_option_value_at_packet_index" time="0">
+</testcase>
+<testcase classname="Rf Regression.Wireshark.Wireshark" name="dhcp_option55" time="0">
+</testcase>
+<testcase classname="Rf Regression.Wireshark.Wireshark" name="pppoe_tags" time="1">
+</testcase>
+<testcase classname="Rf Regression.Wireshark.Wireshark" name="dhcp_option61" time="0">
+</testcase>
+</testsuite>
