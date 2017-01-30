@@ -22,4 +22,8 @@ Folder "vim_config" with Vundle
 
 ## Bamboo XUnit Reader
 
-The script used to fetch bamboo test results in XUnit common format and a reader to walk thru them 
+The script used to fetch bamboo test results in XUnit common format and a reader to walk thru them.
+
+## Chatspring
+
+A Chatbot to automatically reply new year greeting messages via the most popular social network app, -- WeChat.
