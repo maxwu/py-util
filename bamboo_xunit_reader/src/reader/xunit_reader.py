@@ -10,7 +10,7 @@ except ImportError:
     import xml.etree.ElementTree as ET
 
 
-class XunitReader:
+class XunitReader(object):
     def __init__(self, xmlfile = None):
         self.tc_num = 0
         self.res = {}
