@@ -1,0 +1,47 @@
+Status: FAILED
+Time Taken: 685
+Size: 19
+Timestamp: Sun Feb 26 20:27:59 NZDT 2017
+TestStep: REST Request
+
+----------------- Messages ------------------------------
+[Invalid HTTP Status Codes] Response status code: 405 is in invalid list of status codes
+
+----------------- Properties ------------------------------
+StatusCode: 405
+Method: POST
+HTTP Version: HTTP/1.1
+Endpoint: http://freegeoip.net
+URL: http://freegeoip.net/json/github.com
+
+---------------- Request ---------------------------
+Host: [freegeoip.net]
+Content-Length: [0]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+Content-Type: [application/json]
+
+POST http://freegeoip.net/json/github.com HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 0
+Host: freegeoip.net
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Sun, 26 Feb 2017 07:28:00 GMT]
+#status#: [HTTP/1.1 405 Method Not Allowed]
+Content-Length: [19]
+Allow: [GET, OPTIONS]
+CF-RAY: [3371ad80b1c26587-SYD]
+Set-Cookie: [__cfduid=d984156566d2dc487cf3da3ca612c46541488094080; expires=Mon, 26-Feb-18 07:28:00 GMT; path=/; domain=.freegeoip.net; HttpOnly]
+Connection: [keep-alive]
+Content-Type: [text/plain; charset=utf-8]
+Server: [cloudflare-nginx]
+X-Content-Type-Options: [nosniff]
+
+Method Not Allowed
+

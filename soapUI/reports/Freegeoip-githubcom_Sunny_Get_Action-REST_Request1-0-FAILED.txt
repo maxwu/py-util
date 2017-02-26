@@ -1,0 +1,54 @@
+Status: FAILED
+Time Taken: 877
+Size: 19
+Timestamp: Sun Feb 26 20:34:49 NZDT 2017
+TestStep: REST Request-1
+
+----------------- Messages ------------------------------
+[JsonPath Match Country Code] Assertion failed for path [$.country_code] : IllegalArgumentException:Invalid JSON: Method Not Allowed
+
+[JsonPath Existence Latitude] Assertion failed for path [$.latitude] : IllegalArgumentException:Invalid JSON: Method Not Allowed
+
+[JsonPath Match Country Name] Assertion failed for path [$.country_name] : IllegalArgumentException:Invalid JSON: Method Not Allowed
+
+[JsonPath Match] Assertion failed for path [$.ip] : IllegalArgumentException:Invalid JSON: Method Not Allowed
+
+
+----------------- Properties ------------------------------
+StatusCode: 405
+Method: POST
+HTTP Version: HTTP/1.1
+Endpoint: http://freegeoip.net
+URL: http://freegeoip.net/json/github.com
+
+---------------- Request ---------------------------
+Host: [freegeoip.net]
+Content-Length: [0]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+Content-Type: [application/json]
+
+POST http://freegeoip.net/json/github.com HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 0
+Host: freegeoip.net
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Sun, 26 Feb 2017 07:34:49 GMT]
+#status#: [HTTP/1.1 405 Method Not Allowed]
+Content-Length: [19]
+Allow: [GET, OPTIONS]
+CF-RAY: [3371b77f636f19c2-SYD]
+Set-Cookie: [__cfduid=d1f166dab771d94f40ac28ca7e82c1d0b1488094489; expires=Mon, 26-Feb-18 07:34:49 GMT; path=/; domain=.freegeoip.net; HttpOnly]
+Connection: [keep-alive]
+Content-Type: [text/plain; charset=utf-8]
+Server: [cloudflare-nginx]
+X-Content-Type-Options: [nosniff]
+
+Method Not Allowed
+

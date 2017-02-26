@@ -1,0 +1,28 @@
+2017-02-26 23:35:59,323 ERROR [errorlog] com.eviware.soapui.support.SoapUIException: Failed to load project from file [file:/Users/maxwu/devel/soapUI/reports/./TEST-SuitePub1.xml]
+com.eviware.soapui.support.SoapUIException: Failed to load project from file [file:/Users/maxwu/devel/soapUI/reports/./TEST-SuitePub1.xml]
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:328)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:213)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:41)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:28)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:342)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:118)
+Caused by: org.apache.xmlbeans.XmlException: error: The document is not a soapui-project@http://eviware.com/soapui/config: document element mismatch got testsuite
+	at org.apache.xmlbeans.impl.store.Locale.verifyDocumentType(Locale.java:458)
+	at org.apache.xmlbeans.impl.store.Locale.autoTypeDocument(Locale.java:363)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:1279)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:1263)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:345)
+	at com.eviware.soapui.config.SoapuiProjectDocumentConfig$Factory.parse(SoapuiProjectDocumentConfig.java:71)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProjectFromInputStream(WsdlProject.java:350)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:311)
+	... 8 more
+2017-02-26 23:35:59,468 ERROR [errorlog] java.lang.Exception: Failed to load SoapUI project file [./TEST-SuitePub1.xml]
+java.lang.Exception: Failed to load SoapUI project file [./TEST-SuitePub1.xml]
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:346)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:118)

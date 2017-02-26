@@ -1,0 +1,107 @@
+Status: OK
+Time Taken: 1338
+Size: 2370
+Timestamp: Sun Feb 26 23:24:14 NZDT 2017
+TestStep: SOAP Req En-Ch 1.2
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Encoding: UTF-8
+Endpoint: http://fy.webxml.com.cn/webservices/EnglishChinese.asmx
+
+---------------- Request ---------------------------
+Request Headers: Host : fy.webxml.com.cn
+Content-Length : 285
+Accept-Encoding : gzip,deflate
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Connection : Keep-Alive
+Content-Type : application/soap+xml;charset=UTF-8;action="http://WebXml.com.cn/Translator"
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://WebXml.com.cn/">
+   <soap:Header/>
+   <soap:Body>
+      <web:Translator>
+         <!--Optional:-->
+         <web:wordKey>Freedom</web:wordKey>
+      </web:Translator>
+   </soap:Body>
+</soap:Envelope>
+
+---------------- Response --------------------------
+Response Headers: X-AspNet-Version : 2.0.50727
+Date : Sun, 26 Feb 2017 10:23:54 GMT
+#status# : HTTP/1.1 200 OK
+Content-Length : 2370
+Content-Type : application/soap+xml; charset=utf-8
+X-Powered-By : ASP.NET
+Server : Microsoft-IIS/6.0
+Cache-Control : private, max-age=0
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <TranslatorResponse xmlns="http://WebXml.com.cn/">
+         <TranslatorResult>
+            <xs:schema id="Dictionary" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+               <xs:element name="Dictionary" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                     <xs:choice minOccurs="0" maxOccurs="unbounded">
+                        <xs:element name="Trans">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element name="WordKey" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="Pron" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="Info" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="Translation" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="Mp3" type="xs:string" minOccurs="0"/>
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                        <xs:element name="Refer">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element name="Rel" type="xs:string" minOccurs="0"/>
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                        <xs:element name="Sentence">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element name="Orig" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="Trans" type="xs:string" minOccurs="0"/>
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                     </xs:choice>
+                  </xs:complexType>
+               </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+               <Dictionary xmlns="">
+                  <Trans diffgr:id="Trans1" msdata:rowOrder="0">
+                     <WordKey>freedom</WordKey>
+                     <Pron>'fri:d?m</Pron>
+                     <Info/>
+                     <Translation>n. ??</Translation>
+                     <Mp3>73845.mp3</Mp3>
+                  </Trans>
+                  <Sentence diffgr:id="Sentence1" msdata:rowOrder="0">
+                     <Orig>The country's constitution embodies the ideals of freedom and equality.</Orig>
+                     <Trans>???????????????????</Trans>
+                  </Sentence>
+                  <Sentence diffgr:id="Sentence2" msdata:rowOrder="1">
+                     <Orig>Bondmen have no freedom.</Orig>
+                     <Trans>????????</Trans>
+                  </Sentence>
+                  <Sentence diffgr:id="Sentence3" msdata:rowOrder="2">
+                     <Orig>He was granted his freedom on the condition that he leave the country.</Orig>
+                     <Trans>????????, ???????????</Trans>
+                  </Sentence>
+               </Dictionary>
+            </diffgr:diffgram>
+         </TranslatorResult>
+      </TranslatorResponse>
+   </soap:Body>
+</soap:Envelope>
