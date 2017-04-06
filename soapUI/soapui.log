@@ -1,27 +1,30 @@
-2017-02-26 23:51:47,123 INFO  [DefaultSoapUICore] initialized soapui-settings from [/Users/maxwu/soapui-settings.xml]
-2017-02-26 23:51:48,032 INFO  [PluginManager] 0 plugins loaded in 1 ms
-2017-02-26 23:51:48,032 INFO  [DefaultSoapUICore] All plugins loaded
-2017-02-26 23:51:49,280 INFO  [WsdlProject] Loaded project from [file:/Users/maxwu/devel/soapUI/GettingStarted-soapui-project.xml]
-2017-02-26 23:51:49,287 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Soap Test Project]
-2017-02-26 23:51:49,287 INFO  [SoapUITestCaseRunner] Running TestSuite [Suite-Pub-1], runType = SEQUENTIAL
-2017-02-26 23:51:49,294 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC-Soap-CurrencyRate]
-2017-02-26 23:51:49,313 INFO  [SoapUITestCaseRunner] running step [ConversionRate-req]
-2017-02-26 23:51:50,793 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
-2017-02-26 23:51:50,793 INFO  [SoapUITestCaseRunner] Assertion [Response SLA] has status VALID
-2017-02-26 23:51:50,794 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC-Soap-CurrencyRate], time taken: 1475ms, status: FINISHED
-2017-02-26 23:51:50,797 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC-Soap-Translator12]
-2017-02-26 23:51:50,797 INFO  [SoapUITestCaseRunner] running step [SOAP Req En-Ch 1.2]
-2017-02-26 23:51:52,573 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
-2017-02-26 23:51:52,573 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
-2017-02-26 23:51:52,573 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
-2017-02-26 23:51:52,573 INFO  [SoapUITestCaseRunner] Assertion [XPath Match Translation Result] has status VALID
-2017-02-26 23:51:52,573 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC-Soap-Translator12], time taken: 1774ms, status: FINISHED
-2017-02-26 23:51:52,574 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC-Get-Translator]
-2017-02-26 23:51:52,575 INFO  [SoapUITestCaseRunner] running step [HTTP Req Get Translator]
-2017-02-26 23:51:53,114 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
-2017-02-26 23:51:53,115 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC-Get-Translator], time taken: 510ms, status: FINISHED
-2017-02-26 23:51:53,116 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC-Post-Translator]
-2017-02-26 23:51:53,116 INFO  [SoapUITestCaseRunner] running step [HTTP Req Get Translator]
-2017-02-26 23:51:53,618 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
-2017-02-26 23:51:53,618 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC-Post-Translator], time taken: 484ms, status: FINISHED
-2017-02-26 23:51:53,618 INFO  [SoapUITestCaseRunner] TestSuite [Suite-Pub-1] finished with status [FINISHED] in 4327ms
+2017-02-27 01:04:34,315 INFO  [DefaultSoapUICore] initialized soapui-settings from [/Users/maxwu/soapui-settings.xml]
+2017-02-27 01:04:35,133 INFO  [PluginManager] 0 plugins loaded in 1 ms
+2017-02-27 01:04:35,133 INFO  [DefaultSoapUICore] All plugins loaded
+2017-02-27 01:04:37,319 INFO  [WsdlProject] Loaded project from [file:/Users/maxwu/devel/toy-box/soapUI/GettingStarted-soapui-project.xml]
+2017-02-27 01:04:37,326 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Soap Test Project]
+2017-02-27 01:04:37,327 INFO  [SoapUITestCaseRunner] Running TestSuite [Suite-Pub-1], runType = SEQUENTIAL
+2017-02-27 01:04:37,349 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC-Soap-CurrencyRate]
+2017-02-27 01:04:37,354 INFO  [SoapUITestCaseRunner] running step [ConversionRate-req]
+2017-02-27 01:04:38,942 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2017-02-27 01:04:38,942 INFO  [SoapUITestCaseRunner] Assertion [Response SLA] has status VALID
+2017-02-27 01:04:38,946 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC-Soap-CurrencyRate], time taken: 1583ms, status: FINISHED
+2017-02-27 01:04:38,947 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC-Soap-Translator12]
+2017-02-27 01:04:38,947 INFO  [SoapUITestCaseRunner] running step [SOAP Req En-Ch 1.2]
+2017-02-27 01:04:41,856 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2017-02-27 01:04:41,856 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2017-02-27 01:04:41,856 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2017-02-27 01:04:41,856 INFO  [SoapUITestCaseRunner] Assertion [XPath Match Translation Result] has status VALID
+2017-02-27 01:04:41,857 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC-Soap-Translator12], time taken: 2908ms, status: FINISHED
+2017-02-27 01:04:41,857 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC-Get-Translator]
+2017-02-27 01:04:41,858 INFO  [SoapUITestCaseRunner] running step [HTTP Req Get Translator]
+2017-02-27 01:04:42,380 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2017-02-27 01:04:42,381 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC-Get-Translator], time taken: 480ms, status: FINISHED
+2017-02-27 01:04:42,381 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC-Post-Translator]
+2017-02-27 01:04:42,382 INFO  [SoapUITestCaseRunner] running step [HTTP Req Get Translator]
+2017-02-27 01:04:42,987 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2017-02-27 01:04:42,988 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC-Post-Translator], time taken: 591ms, status: FINISHED
+2017-02-27 01:04:42,992 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC-Casual]
+2017-02-27 01:04:42,992 INFO  [SoapUITestCaseRunner] running step [Groovy Script1]
+2017-02-27 01:04:43,362 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC-Casual], time taken: 369ms, status: FINISHED
+2017-02-27 01:04:43,362 INFO  [SoapUITestCaseRunner] TestSuite [Suite-Pub-1] finished with status [FINISHED] in 6031ms
