@@ -11,6 +11,9 @@ set rtp+=/Library/Python/2.7/site-packages/powerline/bindings/vim
 " These lines setup the environment to show graphics and colors correctly.
 set nocompatible
 set t_Co=256
+" Python.vim plugin set max width to 120. This limit is for general file and
+" highlights the exceeding characters.
+" set colorcolumn=121
  
 let g:minBufExplForceSyntaxEnable = 1
 python from powerline.vim import setup as powerline_setup
@@ -74,4 +77,7 @@ Bundle "tomasr/molokai"
 Bundle "klen/python-mode"
 
 nmap <F5> :NERDTreeToggle<cr>
+" F9, F10 for simple Python runs
+nnoremap <F9> :echo system('python2 "' . expand('%') . '"')<cr>
+nnoremap <F10> :echo system('python3 "' . expand('%') . '"')<cr>
 
