@@ -1,0 +1,85 @@
+syntax on
+set softtabstop=4
+" For powerline VIM plugin.
+" 2016-09-21.
+
+" Below procedure to clone Vundle first, then enable runtime with rtp+
+" instruction.
+" >> git clone https://github.com/VundleVim/Vundle.vim.git
+" >> ~/.vim/bundle/Vundle.vim
+" FIXME
+" set rtp+=/Library/Python/2.7/site-packages/powerline/bindings/vim
+" These lines setup the environment to show graphics and colors correctly.
+set nocompatible
+set t_Co=256
+" Python.vim plugin set max width to 120. This limit is for general file and
+" highlights the exceeding characters.
+" set colorcolumn=121
+
+let g:minBufExplForceSyntaxEnable = 1
+"python from powerline.vim import setup as powerline_setup
+"python powerline_setup()
+"python del powerline_setup
+
+"if ! has('gui_running')
+"   set ttimeoutlen=10
+"   augroup FastEscape
+"      autocmd!
+"      au InsertEnter * set timeoutlen=0
+"      au InsertLeave * set timeoutlen=1000
+"   augroup END
+"endif
+
+"set laststatus=2 " Always display the statusline in all windows
+"set guifont=Inconsolata\ for\ Powerline:h14
+"set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#rc()
+
+
+" Define bundles via Github repos
+Bundle 'christoomey/vim-run-interactive'
+" TODO: Network error
+" ----Bundle 'Valloric/YouCompleteMe'
+Bundle 'croaky/vim-colors-github'
+Bundle 'danro/rename.vim'
+Bundle 'majutsushi/tagbar'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'kien/ctrlp.vim'
+Bundle 'pbrisbin/vim-mkdir'
+Bundle 'scrooloose/syntastic'
+Bundle 'slim-template/vim-slim'
+Bundle 'thoughtbot/vim-rspec'
+Bundle 'tpope/vim-bundler'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-surround'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'vim-scripts/ctags.vim'
+Bundle 'vim-scripts/matchit.zip'
+Bundle 'vim-scripts/tComment'
+Bundle "mattn/emmet-vim"
+Bundle "scrooloose/nerdtree"
+Bundle "Lokaltog/vim-powerline"
+Bundle "godlygeek/tabular"
+Bundle "msanders/snipmate.vim"
+Bundle "jelera/vim-javascript-syntax"
+Bundle "altercation/vim-colors-solarized"
+Bundle "othree/html5.vim"
+Bundle "xsbeats/vim-blade"
+Bundle "Raimondi/delimitMate"
+Bundle "groenewege/vim-less"
+Bundle "evanmiller/nginx-vim-syntax"
+Bundle "Lokaltog/vim-easymotion"
+Bundle "tomasr/molokai"
+Bundle "klen/python-mode"
+Bundle 'flazz/vim-colorschemes'
+nmap <F5> :NERDTreeToggle<cr>
+" F9, F10 for simple Python runs
+nnoremap <F9> :echo system('python2 "' . expand('%') . '"')<cr>
+nnoremap <F10> :echo system('python3 "' . expand('%') . '"')<cr>
+" auto start nerdtree
+autocmd VimEnter * NERDTree
